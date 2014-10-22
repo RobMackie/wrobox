@@ -5,7 +5,6 @@ int EA = 9;
 int i2 = 8;
 int i1 = 7;
 
-
 int EB = 5;
 int i4 = 4;
 int i3 = 3;
