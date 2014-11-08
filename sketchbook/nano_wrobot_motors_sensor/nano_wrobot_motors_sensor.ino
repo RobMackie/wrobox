@@ -34,12 +34,12 @@ void sensor_program(void) {
   
   if (temp < 512) {
      analogWrite(pin_m2, 0);
-     analogWrite(pin_m1, 175);   // set the LED on
-     delay(10);   // wait for a second
+     analogWrite(pin_m1, 75);   
+     delay(10);   
   } else {
      analogWrite(pin_m1, 0);
-     analogWrite(pin_m2, 175);    // set the LED off
-     delay(10ou'pphey);   // wait for a second
+     analogWrite(pin_m2, 75);    
+     delay(10);   
   }  
 }
 
@@ -49,5 +49,4 @@ void loop() {
   } else {
     fixed_program();
   }
-
 }
